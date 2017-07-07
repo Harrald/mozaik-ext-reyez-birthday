@@ -2,8 +2,6 @@ import React, { Component, PropTypes } from 'react';
 
 class Clock extends Component {
 
-    props = null;
-
     constructor(props) {
         super(props);
     }
