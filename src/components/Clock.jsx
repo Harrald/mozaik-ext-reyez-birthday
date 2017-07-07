@@ -35,4 +35,12 @@ class Clock extends Component {
 
 Clock.displayName = 'Clock';
 
+Clock.propTypes = {
+    title:    PropTypes.string.isRequired,
+};
+
+Clock.defaultProps = {
+    title: 'Birthdays',
+};
+
 export default Clock;
