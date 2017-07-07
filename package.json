@@ -1,12 +1,11 @@
 {
   "name": "mozaik-ext-reyez-birthday",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Mozaik reyez birthday widgets",
   "repository": {
     "type": "git",
     "url": "git://github.com/harrald/mozaik-ext-reyez-birthday"
   },
-//  "license": "MIT",
   "author": {
     "name": "Harrald Torenvlied",
     "url": "https://github.com/harrald"
@@ -15,7 +14,6 @@
     "node": "0.12.x",
     "npm": ">=3.0.0"
   },
-//  "homepage": "https://github.com/plouc/mozaik-ext-time",
   "main": "./src/components/index.js",
   "keywords": [
     "mozaik",
