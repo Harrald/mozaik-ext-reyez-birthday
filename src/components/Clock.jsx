@@ -7,10 +7,20 @@ class Clock extends Component {
     }
 
     render() {
+
+        const birthdays = [
+            '1986-05-09',
+            '1995-07-18',
+        ];
+
+
+
+
         const body = (
-            <b>
-              test
-            </b>
+            <ul>
+                <li><b>Harrald:</b> 1986-05-09</li>
+                <li><b>Leroy:</b> 1995-07-18</li>
+            </ul>
         );
 
         const { title } = this.props;
