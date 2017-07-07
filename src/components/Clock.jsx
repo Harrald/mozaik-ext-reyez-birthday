@@ -7,19 +7,12 @@ class Clock extends Component {
     }
 
     render() {
-
-        const birthdays = [
-            '1986-05-09',
-            '1995-07-18',
-        ];
-
-
-
-
         const body = (
             <ul>
                 <li><b>Harrald:</b> 1986-05-09</li>
                 <li><b>Leroy:</b> 1995-07-18</li>
+                <li><b>Marcel:</b> 1977-07-22</li>
+                <li><b>Saskia:</b> 1982-05-18</li>
             </ul>
         );
 
