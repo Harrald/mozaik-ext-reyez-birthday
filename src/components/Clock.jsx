@@ -5,14 +5,14 @@ class Clock extends Component {
         super(props);
     }
 
-    componentDidMount() {
-
-    }
-
     render() {
-        let html = '<b>test</b>';
+        const body = (
+            <b>
+              test
+            </b>
+        );
 
-        return html;
+        return body;
     }
 }
 
